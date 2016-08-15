@@ -90,3 +90,6 @@ ENV/
 
 # Settings File
 targets.py
+
+# WSGI File
+*.wsgi
