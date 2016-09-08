@@ -65,6 +65,7 @@ def date_readable(timestamp):
 def size_readable(size):
     postfix = ["", "KB", "MB", "GB", "TB"]
     iteration = 0
+    size = float(size)
     while size >= 1024:
         iteration += 1
         size /= 1024
